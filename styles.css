@@ -854,6 +854,14 @@ footer {
   background-color: var(--light-color);
   border-radius: 50%;
   transition: var(--transition);
+  color: rgb(128, 0, 64);
+  text-decoration: none;
+}
+
+.social-links a i {
+  width: 20px;
+  height: 20px;
+  stroke-width: 2;
 }
 
 .social-icon {
@@ -864,6 +872,10 @@ footer {
   background-color: rgb(128, 0, 64);
   color: white;
   transform: translateY(-3px);
+}
+
+.social-links a:hover i {
+  color: white;
 }
 
 
